@@ -1,0 +1,36 @@
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.inputName{
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 11.24px;
+    text-align: left;
+    color: #FFFFFF;;
+}
+.inputBlock{
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 39.73px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.input{
+    height: 100%;
+    width: 95%;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-left: 10px;
+}
+.inputLogos{
+    width: 21.09px;
+    height: 21.09px;
+    border: 0.75px 0px 0px 0px;
+    opacity: 0px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.loginContainer{
+    width: 1262px;
+    height: 502px;
+    opacity: 0px;
+    display: flex;
+}
+.loginHero{
+    width: 618px;
+    height: 100%;
+    top: 197px;
+    left: 89px;
+    gap: 0px;
+    border-top-left-radius: 23.97px;
+    border-bottom-left-radius:23.97px;
+    opacity: 0px;
+}
+.loginForm{
+    background: #043B64;
+    width: 680px;
+    border-top-right-radius: 23.97px;
+    border-bottom-right-radius: 23.97px;
+    padding: 45px;
+}
+.headerContainer{
+    color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.headerContainer>h1{
+    font-size: 38px;
+    font-family: Nunito;
+    font-weight: 700;
+}
+.headerContainer>span{
+    font-family: Nunito;
+    font-weight: 400;
+    font-size: 11.99px;
+    text-align: center;
+}
+.loginFormContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.forgotBtn{
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    align-self: flex-end;
+    font-family: Nunito;
+    font-size: 17.2px;
+    font-weight: 400;
+}
+.signupQuote{
+    display: block;
+    color: #FFFFFF;
+    font-family: Nunito;
+    font-weight: 400px;
+    font-size: 17.2px;
+    margin-top: 10px;
+}
+.signupQuote>button{
+    color: #FFFFFF;
+    font-family: Nunito;
+    font-weight: 700px;
+    background: none;
+    border: none;
+    font-size: 17.2px;
+}
