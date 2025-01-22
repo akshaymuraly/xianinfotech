@@ -7,7 +7,7 @@ const UserSearchBar = () => {
     <div className={styles.container}>
       <h1 className={styles.heading}>User List</h1>
       <div className={styles.inputContainer}>
-        <input type="text" />
+        <input type="text" placeholder='Search...'/>
         <button><IoSearch className={styles.searchSym}/></button>
       </div>
     </div>
