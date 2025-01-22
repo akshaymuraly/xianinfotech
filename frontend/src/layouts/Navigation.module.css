@@ -1,0 +1,33 @@
+.container{
+    height: 100%;
+    width: 360px;
+    position: relative;
+    padding-top: 169px;
+}
+.logo{
+    position: absolute;
+    width: 165px;
+    height: 69px;
+    top: 19px;
+    left: 31px;
+    object-fit: contain;
+}
+.navContainer>li{
+    padding-left: 34px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    border-top: 1px solid white;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    text-wrap: nowrap;
+    transition: all 0.3s ease-in;
+}
+.navContainer>li:hover{
+    background-color: #FFFFFF;
+    color:#043B64;
+}

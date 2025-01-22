@@ -1,0 +1,51 @@
+.tableContainer {
+    /* padding: 16px; */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #F6F6F6;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Poppins", sans-serif;
+    background-color:#F6F6F6;
+}
+tr{
+    border-bottom: 1px solid #E3E3E3;
+}
+
+th {
+    color:#000000;
+    font-weight: 500;
+    padding: 30px;
+    text-align: left;
+}
+
+td {
+    font-family: Poppins;
+    font-weight: 300;
+    padding: 30px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.viewButton {
+    padding: 8px 21px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Poppins";
+    border: none;
+    background-color: #043B64;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.viewButton:hover {
+    background-color: #0056b3;
+}
